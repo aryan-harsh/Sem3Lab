@@ -1,0 +1,32 @@
+	
+//THIS IS A PSEUDOCODE FOR FIRST COME FIRST SERVE SCHEDULING
+
+
+create a structure which contains all details of a process such as name,arrival time, exittime ...
+use file handling to open the file required
+loop till end of file 
+			read the data using struct
+			store the data in the array of struct created
+			increment variable no_of_processes
+
+make variables for current time,an array for waiting time(wt[]) and turnaroundtime(tat[])
+
+loop for no_of_processes://(for i=0;i< no_of_processes;i++)			  		  		
+      		calculate wt[i] = (bt[0] + bt[1] +...... bt[i-1]) - at[i] 
+			calculate tat[i] =wt[i] + bt[i]  
+          
+loop for no_of_processes://(for i=0;i< no_of_processes;i++)		
+			total_wt + = wt[i];				 
+			//print this in file
+			total tat + = tat[i];			 
+			//print this in file
+
+Avg_wt = total_wt / no_of_processes          
+//print this in file
+Average tat = total_tat / no_of_processes    
+//print this in file
+                 
+
+
+			
+		

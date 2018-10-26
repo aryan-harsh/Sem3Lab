@@ -1,0 +1,41 @@
+
+//THIS IS A PSEUDOCODE FOR ROUND ROBIN SCHEDULING
+
+create a variable time_slice
+initialise time slice as 3, as given in the question
+create a structure which contains all details of a process such as name,arrival time, exittime ...
+use file handling to open the file required
+loop till end of file 
+			read the data using struct
+			store the data in the array of struct created
+			increment variable no_of_processes
+
+make variables for current time,an array for waiting time(wt[]) and turnaroundtime(tat[])
+
+
+
+
+
+
+
+
+
+
+Avg_wt = total_wt / no_of_processes          
+//print this in file
+Average tat = total_tat / no_of_processes    
+//print this in file
+                 
+
+
+//REPEAT ABOVE ALGORITHM FOR VARYING TIME SLICE FROM 1 TO 10
+//USE A LOOP TO DO SO AND INITIALISE TIME SLICE AS i
+//PRINT ONLY THE AVERAGE TURNAROUND TIME FOR EACH
+
+//REPEAT ABOVE ALGORITHM FOR VARYING TIME SLICE FROM 1 TO 10
+//USE A LOOP TO DO SO AND INITIALISE TIME SLICE AS i
+//PRINT ONLY THE WAITING TIME FOR EACH
+
+
+
+//systemlab.iiita@gmail.com
