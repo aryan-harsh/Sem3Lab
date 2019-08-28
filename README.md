@@ -1,2 +1,4 @@
 # Sem3Lab
-Contains files for OOM and OS labs. Connects Lab and personal Laptop and synchronises the data. Contains useful data, do not delete.
+Contains files for OOM (Java) and OS (Operating Systems) labs. 
+Contains all lab assignments and lab tests.
+Open to contributions. Send PR to contribute.
