@@ -1,5 +1,6 @@
 # Assignment 1
 An assignment to understand the basics of Java, classes, objects, inheritance and other topics
+
 ![](https://img.shields.io/badge/java-assignment-blue)
 
 ## Problem Statement
@@ -23,6 +24,8 @@ attempted the assignment, followed by the roll number and marks scored by each s
 assignment. If there are no marks associated with a student for an assignment, the student is
 considered absent and marked as 0. 
 
-### For more details, read the pdf attached 
 
 ![](https://ForTheBadge.com/images/badges/built-with-love.svg)
+
+
+### For more details, read the pdf attached 
